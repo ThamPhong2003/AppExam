@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.examController">
+   <children>
+      <VBox>
+         <children>
+            <Region prefHeight="27.0" prefWidth="1049.0" />
+            <HBox>
+               <children>
+                  <Region prefHeight="218.0" prefWidth="13.0" />
+                  <AnchorPane prefHeight="218.0" prefWidth="250.0" style="-fx-background-color: #D8D8D8;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" prefHeight="23.0" prefWidth="87.0" text="Question " textFill="RED">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Text layoutX="15.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not yet answerred" wrappingWidth="87.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maked out of 1.00" wrappingWidth="80.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        <Label layoutX="15.0" layoutY="161.0" prefHeight="27.0" prefWidth="121.0" text="Flag question">
+                           <graphic>
+                              <FontIcon iconLiteral="fas-flag" iconSize="12" />
+                           </graphic>
+                        </Label>
+                        <Text fx:id="quesNumber" fill="RED" layoutX="105.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="63.0">
+                           <font>
+                              <Font name="Calibri Bold" size="23.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Region prefHeight="218.0" prefWidth="63.0" />
+                  <AnchorPane style="-fx-background-color: #AEFFCC;">
+                     <children>
+                        <Text fx:id="quesName" layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ques:" wrappingWidth="80.0">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="quesText" layoutX="81.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="654.13671875">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <VBox fx:id="choicesContainer" layoutX="18.0" layoutY="45.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="17.0" />
+                     </children>
+                  </AnchorPane>
+                  <Region prefHeight="218.0" prefWidth="27.0" />
+               </children>
+            </HBox>
+            <Region prefHeight="17.0" prefWidth="1049.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

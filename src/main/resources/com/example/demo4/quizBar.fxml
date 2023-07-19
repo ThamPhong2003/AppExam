@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane fx:id="quizBar" prefHeight="63.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FontIcon fill="#096068" iconLiteral="fas-sticky-note" iconSize="30" layoutX="42.0" layoutY="42.0" wrappingWidth="38.0" />
+      <Text fx:id="quizName" fill="#0b85d7" layoutX="72.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="452.13671875">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="260.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.popup72">
+   <children>
+      <AnchorPane fx:id="gui72pane" prefHeight="269.0" prefWidth="661.0" style="-fx-background-color: #D1D4D7;">
+         <children>
+            <Text layoutX="13.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your attempt will have a time limit of 1 hour. when you start, the timer will begin to count down and cannot be paused. You must finish your attempt before it expires.Are you sure you wish to start now" wrappingWidth="647.13671875">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <Line endX="660.0" endY="26.0" layoutY="12.0" startX="-1.52587890625E-5" startY="26.0" />
+            <Label prefHeight="17.0" prefWidth="158.0" text="START ATTEMP">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="39.0" prefHeight="36.0" prefWidth="102.0" text="Time Limit" textFill="RED">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button layoutX="14.0" layoutY="210.0" mnemonicParsing="false" onAction="#startAttempt" prefHeight="46.0" prefWidth="176.0" style="-fx-background-color: RED;" text="START ATTMEPT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button layoutX="217.0" layoutY="210.0" mnemonicParsing="false" onAction="#cancelPreviewQuiz" prefHeight="46.0" prefWidth="120.0" style="-fx-background-color: BLUE;" text="CANCEL" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="502.0" layoutY="210.0" mnemonicParsing="false" onAction="#exportExam" prefHeight="46.0" prefWidth="152.0" style="-fx-background-color: GREEN;" text="EXPORT" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
